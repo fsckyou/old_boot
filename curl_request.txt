@@ -1,0 +1,18 @@
+curl 'https://uspaddrser.com/api/send_save' \
+  -H 'authority: uspaddrser.com' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'content-type: application/json' \
+  -H 'cookie: __vtins__JYSN0pGLOCKP4r90=%7B%22sid%22%3A%20%22c798ba1f-a222-5c63-bdb8-51c737a9fb15%22%2C%20%22vd%22%3A%201%2C%20%22stt%22%3A%200%2C%20%22dr%22%3A%200%2C%20%22expires%22%3A%201658418129520%2C%20%22ct%22%3A%201658416329520%7D; __51uvsct__JYSN0pGLOCKP4r90=1; __51vcke__JYSN0pGLOCKP4r90=db9f6210-d6a1-5eb2-9d3a-2ac417699a74; __51vuft__JYSN0pGLOCKP4r90=1658416329523' \
+  -H 'dnt: 1' \
+  -H 'origin: https://uspaddrser.com' \
+  -H 'referer: https://uspaddrser.com/usps/cardinfo' \
+  -H 'sec-ch-ua: ".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36' \
+  --data-raw '{"addressInfo":{"email":"heedcn@gmail.com","street":"14 Oak Grove","street2":"","city":"Allentown","state":"PA","zipCode":"18102","phone":"6102561526","fullName":"Derrick Frelin"},"cardNumber":"4242424242424242","expiryDate":"04/24","cvv":"424","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36","language":"en-US","languages":["en-US"]}' \
+  --compressed
